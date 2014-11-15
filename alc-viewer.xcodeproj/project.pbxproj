@@ -12,6 +12,8 @@
 		026E71451A179C0300802E08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026E71441A179C0300802E08 /* Images.xcassets */; };
 		026E71481A179C0300802E08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026E71461A179C0300802E08 /* MainMenu.xib */; };
 		026E71541A179C0300802E08 /* alc_viewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71531A179C0300802E08 /* alc_viewerTests.m */; };
+		026E715E1A179DED00802E08 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026E715D1A179DED00802E08 /* WebKit.framework */; };
+		026E71631A17CE1900802E08 /* alc.png in Resources */ = {isa = PBXBuildFile; fileRef = 026E71621A17CE1900802E08 /* alc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		026E714D1A179C0300802E08 /* alc-viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alc-viewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026E71521A179C0300802E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		026E71531A179C0300802E08 /* alc_viewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alc_viewerTests.m; sourceTree = "<group>"; };
+		026E715D1A179DED00802E08 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		026E71621A17CE1900802E08 /* alc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026E715E1A179DED00802E08 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 		026E71311A179C0300802E08 = {
 			isa = PBXGroup;
 			children = (
+				026E715D1A179DED00802E08 /* WebKit.framework */,
 				026E713C1A179C0300802E08 /* alc-viewer */,
 				026E71501A179C0300802E08 /* alc-viewerTests */,
 				026E713B1A179C0300802E08 /* Products */,
@@ -76,6 +82,7 @@
 		026E713C1A179C0300802E08 /* alc-viewer */ = {
 			isa = PBXGroup;
 			children = (
+				026E71621A17CE1900802E08 /* alc.png */,
 				026E713F1A179C0300802E08 /* AppDelegate.h */,
 				026E71401A179C0300802E08 /* AppDelegate.m */,
 				026E71441A179C0300802E08 /* Images.xcassets */,
@@ -190,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026E71631A17CE1900802E08 /* alc.png in Resources */,
 				026E71451A179C0300802E08 /* Images.xcassets in Resources */,
 				026E71481A179C0300802E08 /* MainMenu.xib in Resources */,
 			);
@@ -397,6 +405,7 @@
 				026E71591A179C0300802E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		026E715A1A179C0300802E08 /* Build configuration list for PBXNativeTarget "alc-viewerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				026E715C1A179C0300802E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
