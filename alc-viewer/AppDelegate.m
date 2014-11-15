@@ -19,6 +19,11 @@
 
 @implementation AppDelegate
 
+- (void)applicationWillFinishLaunching:(NSNotification *)aNotification
+{
+  [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleAppleEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   WebPreferences *webPreferences = [WebPreferences standardPreferences];
@@ -27,8 +32,6 @@
   
   [self.window setInitialFirstResponder:self.searchField];
   [self.searchFiledCell setSendsWholeSearchString:YES];
-  
-  [[NSAppleEventManager sharedAppleEventManager] setEventHandler:self andSelector:@selector(handleAppleEvent:withReplyEvent:) forEventClass:kInternetEventClass andEventID:kAEGetURL];
 }
 
 - (IBAction)searchAnswer:(id)sender
