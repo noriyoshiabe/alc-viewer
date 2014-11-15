@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026E71411A179C0300802E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71401A179C0300802E08 /* AppDelegate.m */; };
+		026E71431A179C0300802E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71421A179C0300802E08 /* main.m */; };
+		026E71451A179C0300802E08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026E71441A179C0300802E08 /* Images.xcassets */; };
+		026E71481A179C0300802E08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 026E71461A179C0300802E08 /* MainMenu.xib */; };
+		026E71541A179C0300802E08 /* alc_viewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71531A179C0300802E08 /* alc_viewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026E714E1A179C0300802E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E71321A179C0300802E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026E71391A179C0300802E08;
+			remoteInfo = "alc-viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026E713A1A179C0300802E08 /* alc-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alc-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		026E713E1A179C0300802E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026E713F1A179C0300802E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		026E71401A179C0300802E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		026E71421A179C0300802E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		026E71441A179C0300802E08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		026E71471A179C0300802E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		026E714D1A179C0300802E08 /* alc-viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alc-viewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		026E71521A179C0300802E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026E71531A179C0300802E08 /* alc_viewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alc_viewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026E71371A179C0300802E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026E714A1A179C0300802E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026E71311A179C0300802E08 = {
+			isa = PBXGroup;
+			children = (
+				026E713C1A179C0300802E08 /* alc-viewer */,
+				026E71501A179C0300802E08 /* alc-viewerTests */,
+				026E713B1A179C0300802E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		026E713B1A179C0300802E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026E713A1A179C0300802E08 /* alc-viewer.app */,
+				026E714D1A179C0300802E08 /* alc-viewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026E713C1A179C0300802E08 /* alc-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				026E713F1A179C0300802E08 /* AppDelegate.h */,
+				026E71401A179C0300802E08 /* AppDelegate.m */,
+				026E71441A179C0300802E08 /* Images.xcassets */,
+				026E71461A179C0300802E08 /* MainMenu.xib */,
+				026E713D1A179C0300802E08 /* Supporting Files */,
+			);
+			path = "alc-viewer";
+			sourceTree = "<group>";
+		};
+		026E713D1A179C0300802E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				026E713E1A179C0300802E08 /* Info.plist */,
+				026E71421A179C0300802E08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		026E71501A179C0300802E08 /* alc-viewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				026E71531A179C0300802E08 /* alc_viewerTests.m */,
+				026E71511A179C0300802E08 /* Supporting Files */,
+			);
+			path = "alc-viewerTests";
+			sourceTree = "<group>";
+		};
+		026E71511A179C0300802E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				026E71521A179C0300802E08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026E71391A179C0300802E08 /* alc-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026E71571A179C0300802E08 /* Build configuration list for PBXNativeTarget "alc-viewer" */;
+			buildPhases = (
+				026E71361A179C0300802E08 /* Sources */,
+				026E71371A179C0300802E08 /* Frameworks */,
+				026E71381A179C0300802E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alc-viewer";
+			productName = "alc-viewer";
+			productReference = 026E713A1A179C0300802E08 /* alc-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		026E714C1A179C0300802E08 /* alc-viewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026E715A1A179C0300802E08 /* Build configuration list for PBXNativeTarget "alc-viewerTests" */;
+			buildPhases = (
+				026E71491A179C0300802E08 /* Sources */,
+				026E714A1A179C0300802E08 /* Frameworks */,
+				026E714B1A179C0300802E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026E714F1A179C0300802E08 /* PBXTargetDependency */,
+			);
+			name = "alc-viewerTests";
+			productName = "alc-viewerTests";
+			productReference = 026E714D1A179C0300802E08 /* alc-viewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026E71321A179C0300802E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					026E71391A179C0300802E08 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					026E714C1A179C0300802E08 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 026E71391A179C0300802E08;
+					};
+				};
+			};
+			buildConfigurationList = 026E71351A179C0300802E08 /* Build configuration list for PBXProject "alc-viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026E71311A179C0300802E08;
+			productRefGroup = 026E713B1A179C0300802E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026E71391A179C0300802E08 /* alc-viewer */,
+				026E714C1A179C0300802E08 /* alc-viewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026E71381A179C0300802E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026E71451A179C0300802E08 /* Images.xcassets in Resources */,
+				026E71481A179C0300802E08 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026E714B1A179C0300802E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026E71361A179C0300802E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026E71431A179C0300802E08 /* main.m in Sources */,
+				026E71411A179C0300802E08 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026E71491A179C0300802E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026E71541A179C0300802E08 /* alc_viewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026E714F1A179C0300802E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026E71391A179C0300802E08 /* alc-viewer */;
+			targetProxy = 026E714E1A179C0300802E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		026E71461A179C0300802E08 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026E71471A179C0300802E08 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026E71551A179C0300802E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		026E71561A179C0300802E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		026E71581A179C0300802E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "alc-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		026E71591A179C0300802E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "alc-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		026E715B1A179C0300802E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "alc-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alc-viewer.app/Contents/MacOS/alc-viewer";
+			};
+			name = Debug;
+		};
+		026E715C1A179C0300802E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "alc-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alc-viewer.app/Contents/MacOS/alc-viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026E71351A179C0300802E08 /* Build configuration list for PBXProject "alc-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026E71551A179C0300802E08 /* Debug */,
+				026E71561A179C0300802E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026E71571A179C0300802E08 /* Build configuration list for PBXNativeTarget "alc-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026E71581A179C0300802E08 /* Debug */,
+				026E71591A179C0300802E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		026E715A1A179C0300802E08 /* Build configuration list for PBXNativeTarget "alc-viewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026E715B1A179C0300802E08 /* Debug */,
+				026E715C1A179C0300802E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026E71321A179C0300802E08 /* Project object */;
+}
