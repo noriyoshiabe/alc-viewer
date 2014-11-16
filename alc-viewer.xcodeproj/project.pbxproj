@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023F11FF1A1848E800607134 /* ALCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023F11FE1A1848E800607134 /* ALCWebView.m */; };
 		026E71411A179C0300802E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71401A179C0300802E08 /* AppDelegate.m */; };
 		026E71431A179C0300802E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 026E71421A179C0300802E08 /* main.m */; };
 		026E71451A179C0300802E08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026E71441A179C0300802E08 /* Images.xcassets */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023F11FD1A1848E800607134 /* ALCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCWebView.h; sourceTree = "<group>"; };
+		023F11FE1A1848E800607134 /* ALCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCWebView.m; sourceTree = "<group>"; };
 		026E713A1A179C0300802E08 /* alc-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alc-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		026E713E1A179C0300802E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		026E713F1A179C0300802E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				026E71441A179C0300802E08 /* Images.xcassets */,
 				026E71461A179C0300802E08 /* MainMenu.xib */,
 				026E713D1A179C0300802E08 /* Supporting Files */,
+				023F11FD1A1848E800607134 /* ALCWebView.h */,
+				023F11FE1A1848E800607134 /* ALCWebView.m */,
 			);
 			path = "alc-viewer";
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				026E71431A179C0300802E08 /* main.m in Sources */,
+				023F11FF1A1848E800607134 /* ALCWebView.m in Sources */,
 				026E71411A179C0300802E08 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
