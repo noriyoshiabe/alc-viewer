@@ -1,0 +1,1 @@
+alfred://customsearch/Search%20ALC%20for%20%7Bquery%7D/alc/utf8/noplus/alc://{query}
