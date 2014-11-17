@@ -35,6 +35,7 @@
   NSString *urlString = [[event paramDescriptorForKeyword:keyDirectObject] stringValue];
   NSString *query = [urlString substringFromIndex:6];
   [self.webView setMainFrameURL:[NSString stringWithFormat:@"http://eow.alc.co.jp/search?q=%@", query]];
+  [self.window orderFront:self];
 }
 
 @end
